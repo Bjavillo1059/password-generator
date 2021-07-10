@@ -1,3 +1,12 @@
+:root {
+	--color: bisque;
+	--color-2: rgb(48, 39, 39);
+	--background-color: rgb(209, 178, 143);
+	--background-color-2: rgb(201, 100, 50);
+	--font-family: Arial;
+
+}
+
 *,
 *::before,
 *::after {
@@ -14,7 +23,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: var(--background-color);
 }
 
 .wrapper {
@@ -35,7 +44,7 @@ header {
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: var(--color-2);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
