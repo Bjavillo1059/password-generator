@@ -27,17 +27,20 @@ function generatePassword() {
 	var letter = window.confirm("would you like to use letters");
 	var passString = ""
 
+	// allows for the selection of letters, symbols, and numbers for the specified length given with window prompt
 	let charInput = length
 	letter ? (charInput += letters) : "";
 	symbol ? (charInput += symbols) : "";
 	number ? (charInput += numbers) : "";
 
+	// sets random characters generated with the selections of the prompts given
 	for (let i = 0; i < length; i++) {
 		var index = Math.floor(Math.random() * charInput.length);
   		var random = charInput[index]; // index generated from previous line
 		passString += random
 	}
 	
+	// runs the pass generator
 	return passString;
 }
 

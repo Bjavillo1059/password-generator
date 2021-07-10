@@ -9,7 +9,7 @@ This is a password generator that can randomly generate passwords from 8 charact
 (placeholder)-
 https://github.com/Bjavillo1059/password-generator
 
-<img src="./assets/images/password photo.PNG" alt=" img of password site"/>
+<img src="./assets/images/pass gen photo.PNG" alt=" img of password site"/>
 
 ## Technology used
 
@@ -28,7 +28,44 @@ or [bjavillo1059@gmail.com](bjavillo1059@gmail.com)
 
 - adjustments and refactoring were made to css to fit my individual style
 
-  - Javascript
+  Javascript
+
+    - When user opens page an alert will specify "Remember to copy your password when generated"
+    - User clicks the "Generate Password" button
+
+    Global varibales established
+      - symbols
+      - numbers
+      - letters
+
+    wrtiePassword function 
+      - when user is completed with password prompts the password will generate in display in the the given block of html
+
+    generatePassword function
+      - when "Generate Passord btn is pressed" a window prompt will specify a number length selection for password
+      - console log will read string
+      - when the length of password selection is < 8 or > 128 characters window alert will specify "you must chose again"
+
+    variables in window.confirm
+      - boolean established for symbol selection
+      - boolean established for number selection
+      - boolean established for letter selection
+
+    let statement
+      - allows for the selection of different characters
+      - boolean selections for letters, symbols, numbers combination
+
+    for loop
+      - loops random characters
+      - loops according to the specfied length
+      - loops with the selection of boolean selections
+
+    generateBtn.addEventListener
+      - generates button click 
+      - watch the magic happen
+
+    
+
 
 
 
