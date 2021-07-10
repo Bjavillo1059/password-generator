@@ -40,8 +40,8 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  background-color: var(--color);
+  border-radius: 50px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: var(--color-2);
@@ -107,6 +107,8 @@ button[:disabled] {
 }
 
 #password {
+	background-color: var(--color-2);
+	color: var(--background-color-2);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -122,7 +124,7 @@ button[:disabled] {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  border-radius: 35px;
   resize: none;
   overflow: hidden;
 }
