@@ -9,7 +9,7 @@ This is a password generator that can randomly generate passwords from 8 charact
 
 https://bjavillo1059.github.io/password-generator/
 
-<img src="./assets/images/pass gen photo.PNG" alt=" img of password site"/>
+<img src="./assets/img/pass gen photo.PNG" alt=" img of password site"/>
 
 ## Technology used
 
